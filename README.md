@@ -47,7 +47,7 @@ The three drought products share one Thai word ("ภัยแล้ง") but mea
 
   ```bash
   cd ../foss4g_disaster_assistant_backend
-  cp .env.example .env   # then fill in LLM_API_KEY and GISTDA_API_KEY
+  # create .env here with LLM_BASE_URL, LLM_API_KEY, LLM_MODEL and GISTDA_API_KEY
   cargo run
   ```
 
@@ -57,7 +57,7 @@ The three drought products share one Thai word ("ภัยแล้ง") but mea
 
 ```bash
 bun install
-cp .env.example .env.local   # then fill in the values below
+# create .env.local with the variables listed below
 bun dev
 ```
 
@@ -124,7 +124,7 @@ docs/
 - This project uses **Next.js 16**, which has breaking changes from earlier versions. Read the guides in `node_modules/next/dist/docs/` before changing routing, config or data fetching (see `AGENTS.md`).
 - The backend API contract (every request and response field, error codes, and the GeoJSON shape for each hazard) is in the backend repo's `API.md`. Read it before changing `src/lib/api.ts`.
 - UI text is mostly Thai, and responses follow the language of the question (`lang: "th" | "en"`). Code comments are in English.
-- Never commit API keys. `.env*` files are gitignored.
+- Never commit API keys. All `.env*` files are gitignored, including templates.
 
 ## Data sources
 
