@@ -1,0 +1,73 @@
+{
+  "created_at": "2025-01-26T14:20:45.315Z",
+  "created_by": "66b07c8034c2963abcdb9bb8",
+  "description": "This is the catalog MODIS Hotspots",
+  "id": "modis",
+  "links": [
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/modis?token=<TOKEN>",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire?token=<TOKEN>",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire?token=<TOKEN>",
+      "rel": "parent",
+      "title": "STAC for Forest Fire",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/modis/children?token=<TOKEN>",
+      "rel": "children",
+      "title": "child list",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/modis_2022?token=<TOKEN>",
+      "rel": "child",
+      "title": "Catalog Year 2022",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/modis_2023?token=<TOKEN>",
+      "rel": "child",
+      "title": "Catalog Year 2023",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/modis_2024?token=<TOKEN>",
+      "rel": "child",
+      "title": "Catalog Year 2024",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/modis_2025?token=<TOKEN>",
+      "rel": "child",
+      "title": "Catalog Year 2025",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/modis_2026?token=<TOKEN>",
+      "rel": "child",
+      "title": "Catalog Year 2026",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/modis_processing?token=<TOKEN>",
+      "rel": "child",
+      "title": "MODIS Days Processing",
+      "type": "application/json"
+    }
+  ],
+  "parent": "fire",
+  "stac": "fire",
+  "stac_version": "1.0.0",
+  "title": "Catalog for MODIS",
+  "type": "Catalog",
+  "updated_at": "2025-01-26T14:20:45.315Z",
+  "updated_by": "66b07c8034c2963abcdb9bb8"
+}

@@ -1,0 +1,90 @@
+{
+  "conformsTo": [
+    "https://api.stacspec.org/v1.0.0-rc.1/core",
+    "https://api.stacspec.org/v1.0.0-rc.1/children",
+    "https://api.stacspec.org/v1.0.0-rc.1/browseable",
+    "https://api.stacspec.org/v1.0.0-rc.1/collections",
+    "https://api.stacspec.org/v1.0.0-rc.1/ogcapi-features",
+    "https://api.stacspec.org/v1.0.0-rc.1/item-search",
+    "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/core",
+    "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/oas30",
+    "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/geojson"
+  ],
+  "description": "This is root catalog for drought",
+  "id": "drought",
+  "links": [
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought?token=<TOKEN>",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought?token=<TOKEN>",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/conformance?token=<TOKEN>",
+      "rel": "conformance",
+      "title": "OGC API conformance classes implemented by this server",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/api?token=<TOKEN>",
+      "rel": "service-desc",
+      "title": "the API definition",
+      "type": "application/vnd.oai.openapi+json;version=3.0"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/queryables?token=<TOKEN>",
+      "rel": "queryables",
+      "title": "queryables of this catalog",
+      "type": "application/schema+json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections?token=<TOKEN>",
+      "rel": "data",
+      "title": "collection list",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/search?token=<TOKEN>",
+      "rel": "search",
+      "title": "item search",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/children?token=<TOKEN>",
+      "rel": "children",
+      "title": "child list",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/catalogs/dri_plus?token=<TOKEN>",
+      "rel": "child",
+      "title": "Catalog dri_plus Category By weekly process",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/catalogs/lst?token=<TOKEN>",
+      "rel": "child",
+      "title": "Catalog lst Category By weekly process",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/catalogs/ndwi?token=<TOKEN>",
+      "rel": "child",
+      "title": "Catalog ndwi Category By weekly process",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/catalogs/smap?token=<TOKEN>",
+      "rel": "child",
+      "title": "Catalog smap Category By weekly process",
+      "type": "application/json"
+    }
+  ],
+  "stac_version": "1.0.0",
+  "title": "drought",
+  "type": "Catalog"
+}

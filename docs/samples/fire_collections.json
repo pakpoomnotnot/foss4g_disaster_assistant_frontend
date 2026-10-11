@@ -1,0 +1,776 @@
+{
+  "collections": [
+    {
+      "created_at": "2025-05-26T03:52:11.968Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "description": "Process data fire_ day 20250201",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              92.77094,
+              -2.92576,
+              121.37386,
+              30.10147
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-02-01T00:00:00Z",
+              "2025-02-01T23:59:00Z"
+            ]
+          ]
+        }
+      },
+      "id": "fire__20250201",
+      "keywords": [
+        "fire",
+        "20250201"
+      ],
+      "license": "....",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250201?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/fire__2025_Q1_02?token=<TOKEN>",
+          "rel": "parent",
+          "title": "fire Catalog Year 2025 Month 02",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250201/items?token=<TOKEN>",
+          "rel": "items",
+          "type": "application/geo+json"
+        }
+      ],
+      "parent": "fire__2025_Q1_02",
+      "providers": [
+        {
+          "name": "GISTDA",
+          "roles": [
+            "host"
+          ],
+          "url": "https://gistda.or.th/"
+        }
+      ],
+      "stac": "fire",
+      "stac_version": "1.0.0",
+      "summaries": {
+        "platform": [
+          "Gistda-disaster"
+        ]
+      },
+      "title": "Process data day 20250201",
+      "type": "Collection",
+      "updated_at": "2025-05-26T03:52:11.968Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "created_at": "2025-05-26T03:52:13.001Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "description": "Process data fire_ day 20250203",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              91.10534,
+              -1.26098,
+              120.15466,
+              30.91032
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-02-03T00:00:00Z",
+              "2025-02-03T23:59:00Z"
+            ]
+          ]
+        }
+      },
+      "id": "fire__20250203",
+      "keywords": [
+        "fire",
+        "20250203"
+      ],
+      "license": "....",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250203?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/fire__2025_Q1_02?token=<TOKEN>",
+          "rel": "parent",
+          "title": "fire Catalog Year 2025 Month 02",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250203/items?token=<TOKEN>",
+          "rel": "items",
+          "type": "application/geo+json"
+        }
+      ],
+      "parent": "fire__2025_Q1_02",
+      "providers": [
+        {
+          "name": "GISTDA",
+          "roles": [
+            "host"
+          ],
+          "url": "https://gistda.or.th/"
+        }
+      ],
+      "stac": "fire",
+      "stac_version": "1.0.0",
+      "summaries": {
+        "platform": [
+          "Gistda-disaster"
+        ]
+      },
+      "title": "Process data day 20250203",
+      "type": "Collection",
+      "updated_at": "2025-05-26T03:52:13.001Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "created_at": "2025-05-26T03:52:01.594Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "description": "Process data fire_ day 20250401",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              92.5833,
+              -2.97807,
+              113.7164,
+              29.2514
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-04-01T00:00:00Z",
+              "2025-04-01T23:59:00Z"
+            ]
+          ]
+        }
+      },
+      "id": "fire__20250401",
+      "keywords": [
+        "fire",
+        "20250401"
+      ],
+      "license": "....",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250401?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/fire__2025_Q2_04?token=<TOKEN>",
+          "rel": "parent",
+          "title": "fire Catalog Year 2025 Month 04",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250401/items?token=<TOKEN>",
+          "rel": "items",
+          "type": "application/geo+json"
+        }
+      ],
+      "parent": "fire__2025_Q2_04",
+      "providers": [
+        {
+          "name": "GISTDA",
+          "roles": [
+            "host"
+          ],
+          "url": "https://gistda.or.th/"
+        }
+      ],
+      "stac": "fire",
+      "stac_version": "1.0.0",
+      "summaries": {
+        "platform": [
+          "Gistda-disaster"
+        ]
+      },
+      "title": "Process data day 20250401",
+      "type": "Collection",
+      "updated_at": "2025-05-26T03:52:01.594Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "created_at": "2025-05-26T03:52:02.728Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "description": "Process data fire_ day 20250402",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              92.33732,
+              -7.56277,
+              127.63493,
+              30.89721
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-04-02T00:00:00Z",
+              "2025-04-02T23:59:00Z"
+            ]
+          ]
+        }
+      },
+      "id": "fire__20250402",
+      "keywords": [
+        "fire",
+        "20250402"
+      ],
+      "license": "....",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250402?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/fire__2025_Q2_04?token=<TOKEN>",
+          "rel": "parent",
+          "title": "fire Catalog Year 2025 Month 04",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250402/items?token=<TOKEN>",
+          "rel": "items",
+          "type": "application/geo+json"
+        }
+      ],
+      "parent": "fire__2025_Q2_04",
+      "providers": [
+        {
+          "name": "GISTDA",
+          "roles": [
+            "host"
+          ],
+          "url": "https://gistda.or.th/"
+        }
+      ],
+      "stac": "fire",
+      "stac_version": "1.0.0",
+      "summaries": {
+        "platform": [
+          "Gistda-disaster"
+        ]
+      },
+      "title": "Process data day 20250402",
+      "type": "Collection",
+      "updated_at": "2025-05-26T03:52:02.728Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "created_at": "2025-05-26T03:52:03.849Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "description": "Process data fire_ day 20250403",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              88.71568,
+              -9.915,
+              127.44579,
+              30.99491
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-04-03T00:00:00Z",
+              "2025-04-03T23:59:00Z"
+            ]
+          ]
+        }
+      },
+      "id": "fire__20250403",
+      "keywords": [
+        "fire",
+        "20250403"
+      ],
+      "license": "....",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250403?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/fire__2025_Q2_04?token=<TOKEN>",
+          "rel": "parent",
+          "title": "fire Catalog Year 2025 Month 04",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250403/items?token=<TOKEN>",
+          "rel": "items",
+          "type": "application/geo+json"
+        }
+      ],
+      "parent": "fire__2025_Q2_04",
+      "providers": [
+        {
+          "name": "GISTDA",
+          "roles": [
+            "host"
+          ],
+          "url": "https://gistda.or.th/"
+        }
+      ],
+      "stac": "fire",
+      "stac_version": "1.0.0",
+      "summaries": {
+        "platform": [
+          "Gistda-disaster"
+        ]
+      },
+      "title": "Process data day 20250403",
+      "type": "Collection",
+      "updated_at": "2025-05-26T03:52:03.849Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "created_at": "2025-05-26T03:52:05.149Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "description": "Process data fire_ day 20250404",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              92.51658,
+              -8.74132,
+              138.76126,
+              30.85714
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-04-04T00:00:00Z",
+              "2025-04-04T23:59:00Z"
+            ]
+          ]
+        }
+      },
+      "id": "fire__20250404",
+      "keywords": [
+        "fire",
+        "20250404"
+      ],
+      "license": "....",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250404?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/fire__2025_Q2_04?token=<TOKEN>",
+          "rel": "parent",
+          "title": "fire Catalog Year 2025 Month 04",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250404/items?token=<TOKEN>",
+          "rel": "items",
+          "type": "application/geo+json"
+        }
+      ],
+      "parent": "fire__2025_Q2_04",
+      "providers": [
+        {
+          "name": "GISTDA",
+          "roles": [
+            "host"
+          ],
+          "url": "https://gistda.or.th/"
+        }
+      ],
+      "stac": "fire",
+      "stac_version": "1.0.0",
+      "summaries": {
+        "platform": [
+          "Gistda-disaster"
+        ]
+      },
+      "title": "Process data day 20250404",
+      "type": "Collection",
+      "updated_at": "2025-05-26T03:52:05.149Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "created_at": "2025-05-26T03:52:06.25Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "description": "Process data fire_ day 20250405",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              91.2328,
+              -8.27553,
+              123.50852,
+              30.9834
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-04-05T00:00:00Z",
+              "2025-04-05T23:59:00Z"
+            ]
+          ]
+        }
+      },
+      "id": "fire__20250405",
+      "keywords": [
+        "fire",
+        "20250405"
+      ],
+      "license": "....",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250405?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/fire__2025_Q2_04?token=<TOKEN>",
+          "rel": "parent",
+          "title": "fire Catalog Year 2025 Month 04",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250405/items?token=<TOKEN>",
+          "rel": "items",
+          "type": "application/geo+json"
+        }
+      ],
+      "parent": "fire__2025_Q2_04",
+      "providers": [
+        {
+          "name": "GISTDA",
+          "roles": [
+            "host"
+          ],
+          "url": "https://gistda.or.th/"
+        }
+      ],
+      "stac": "fire",
+      "stac_version": "1.0.0",
+      "summaries": {
+        "platform": [
+          "Gistda-disaster"
+        ]
+      },
+      "title": "Process data day 20250405",
+      "type": "Collection",
+      "updated_at": "2025-05-26T03:52:06.25Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "created_at": "2025-05-26T03:52:07.385Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "description": "Process data fire_ day 20250406",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              92.52114,
+              -10.09168,
+              124.8904,
+              30.80021
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-04-06T00:00:00Z",
+              "2025-04-06T23:59:00Z"
+            ]
+          ]
+        }
+      },
+      "id": "fire__20250406",
+      "keywords": [
+        "fire",
+        "20250406"
+      ],
+      "license": "....",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250406?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/fire__2025_Q2_04?token=<TOKEN>",
+          "rel": "parent",
+          "title": "fire Catalog Year 2025 Month 04",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250406/items?token=<TOKEN>",
+          "rel": "items",
+          "type": "application/geo+json"
+        }
+      ],
+      "parent": "fire__2025_Q2_04",
+      "providers": [
+        {
+          "name": "GISTDA",
+          "roles": [
+            "host"
+          ],
+          "url": "https://gistda.or.th/"
+        }
+      ],
+      "stac": "fire",
+      "stac_version": "1.0.0",
+      "summaries": {
+        "platform": [
+          "Gistda-disaster"
+        ]
+      },
+      "title": "Process data day 20250406",
+      "type": "Collection",
+      "updated_at": "2025-05-26T03:52:07.385Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "created_at": "2025-05-26T03:52:08.465Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "description": "Process data fire_ day 20250407",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              92.31431,
+              -8.27206,
+              128.25162,
+              30.89669
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-04-07T00:00:00Z",
+              "2025-04-07T23:59:00Z"
+            ]
+          ]
+        }
+      },
+      "id": "fire__20250407",
+      "keywords": [
+        "fire",
+        "20250407"
+      ],
+      "license": "....",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250407?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/fire__2025_Q2_04?token=<TOKEN>",
+          "rel": "parent",
+          "title": "fire Catalog Year 2025 Month 04",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250407/items?token=<TOKEN>",
+          "rel": "items",
+          "type": "application/geo+json"
+        }
+      ],
+      "parent": "fire__2025_Q2_04",
+      "providers": [
+        {
+          "name": "GISTDA",
+          "roles": [
+            "host"
+          ],
+          "url": "https://gistda.or.th/"
+        }
+      ],
+      "stac": "fire",
+      "stac_version": "1.0.0",
+      "summaries": {
+        "platform": [
+          "Gistda-disaster"
+        ]
+      },
+      "title": "Process data day 20250407",
+      "type": "Collection",
+      "updated_at": "2025-05-26T03:52:08.465Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "created_at": "2025-05-26T03:52:09.664Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "description": "Process data fire_ day 20250408",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              91.22296,
+              -8.5353,
+              127.63255,
+              30.84917
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-04-08T00:00:00Z",
+              "2025-04-08T23:59:00Z"
+            ]
+          ]
+        }
+      },
+      "id": "fire__20250408",
+      "keywords": [
+        "fire",
+        "20250408"
+      ],
+      "license": "....",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250408?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/fire__2025_Q2_04?token=<TOKEN>",
+          "rel": "parent",
+          "title": "fire Catalog Year 2025 Month 04",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250408/items?token=<TOKEN>",
+          "rel": "items",
+          "type": "application/geo+json"
+        }
+      ],
+      "parent": "fire__2025_Q2_04",
+      "providers": [
+        {
+          "name": "GISTDA",
+          "roles": [
+            "host"
+          ],
+          "url": "https://gistda.or.th/"
+        }
+      ],
+      "stac": "fire",
+      "stac_version": "1.0.0",
+      "summaries": {
+        "platform": [
+          "Gistda-disaster"
+        ]
+      },
+      "title": "Process data day 20250408",
+      "type": "Collection",
+      "updated_at": "2025-05-26T03:52:09.664Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    }
+  ],
+  "context": {
+    "limit": 10,
+    "matched": 3190,
+    "page": 1,
+    "returned": 10
+  },
+  "links": [
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections?token=<TOKEN>",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire?token=<TOKEN>",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections?token=<TOKEN>&limit=10&offset=10",
+      "rel": "next"
+    }
+  ]
+}

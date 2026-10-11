@@ -1,0 +1,84 @@
+{
+  "conformsTo": [
+    "https://api.stacspec.org/v1.0.0-rc.1/core",
+    "https://api.stacspec.org/v1.0.0-rc.1/children",
+    "https://api.stacspec.org/v1.0.0-rc.1/browseable",
+    "https://api.stacspec.org/v1.0.0-rc.1/collections",
+    "https://api.stacspec.org/v1.0.0-rc.1/ogcapi-features",
+    "https://api.stacspec.org/v1.0.0-rc.1/item-search",
+    "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/core",
+    "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/oas30",
+    "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/geojson"
+  ],
+  "description": "This is root catalog for fire",
+  "id": "fire",
+  "links": [
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire?token=<TOKEN>",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire?token=<TOKEN>",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/conformance?token=<TOKEN>",
+      "rel": "conformance",
+      "title": "OGC API conformance classes implemented by this server",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/api?token=<TOKEN>",
+      "rel": "service-desc",
+      "title": "the API definition",
+      "type": "application/vnd.oai.openapi+json;version=3.0"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/queryables?token=<TOKEN>",
+      "rel": "queryables",
+      "title": "queryables of this catalog",
+      "type": "application/schema+json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections?token=<TOKEN>",
+      "rel": "data",
+      "title": "collection list",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/search?token=<TOKEN>",
+      "rel": "search",
+      "title": "item search",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/children?token=<TOKEN>",
+      "rel": "children",
+      "title": "child list",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/fire_?token=<TOKEN>",
+      "rel": "child",
+      "title": "Catalog fire Category By weekly process",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/modis?token=<TOKEN>",
+      "rel": "child",
+      "title": "Catalog for MODIS",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/viirs?token=<TOKEN>",
+      "rel": "child",
+      "title": "Catalog for VIIRS",
+      "type": "application/json"
+    }
+  ],
+  "stac_version": "1.0.0",
+  "title": "STAC for Forest Fire",
+  "type": "Catalog"
+}

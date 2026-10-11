@@ -1,0 +1,96 @@
+{
+  "conformsTo": [
+    "https://api.stacspec.org/v1.0.0-rc.1/core",
+    "https://api.stacspec.org/v1.0.0-rc.1/children",
+    "https://api.stacspec.org/v1.0.0-rc.1/browseable",
+    "https://api.stacspec.org/v1.0.0-rc.1/collections",
+    "https://api.stacspec.org/v1.0.0-rc.1/ogcapi-features",
+    "https://api.stacspec.org/v1.0.0-rc.1/item-search",
+    "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/core",
+    "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/oas30",
+    "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/geojson"
+  ],
+  "description": "This is root catalog for flood",
+  "id": "flood",
+  "links": [
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood?token=<TOKEN>",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood?token=<TOKEN>",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood/conformance?token=<TOKEN>",
+      "rel": "conformance",
+      "title": "OGC API conformance classes implemented by this server",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood/api?token=<TOKEN>",
+      "rel": "service-desc",
+      "title": "the API definition",
+      "type": "application/vnd.oai.openapi+json;version=3.0"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood/queryables?token=<TOKEN>",
+      "rel": "queryables",
+      "title": "queryables of this catalog",
+      "type": "application/schema+json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood/collections?token=<TOKEN>",
+      "rel": "data",
+      "title": "collection list",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood/search?token=<TOKEN>",
+      "rel": "search",
+      "title": "item search",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood/children?token=<TOKEN>",
+      "rel": "children",
+      "title": "child list",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood/catalogs/flood_forecast?token=<TOKEN>",
+      "rel": "child",
+      "title": "Catalog flood Category By Forecast",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood/catalogs/flood_monthly?token=<TOKEN>",
+      "rel": "child",
+      "title": "flood monthly",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood/catalogs/flood_r1?token=<TOKEN>",
+      "rel": "child",
+      "title": "Flood_R1",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood/catalogs/flood_r2?token=<TOKEN>",
+      "rel": "child",
+      "title": "Flood_R2",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood/catalogs/flood_yearly?token=<TOKEN>",
+      "rel": "child",
+      "title": "flood yearly",
+      "type": "application/json"
+    }
+  ],
+  "stac_version": "1.0.0",
+  "title": "STAC for Flood",
+  "type": "Catalog"
+}

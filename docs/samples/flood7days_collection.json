@@ -1,0 +1,79 @@
+{
+  "created_at": "2024-09-16T06:21:59.123Z",
+  "created_by": "66b07c8034c2963abcdb9bb8",
+  "description": "น้ำท่วมราย 7 วัน",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-07-28T00:00:00Z",
+          "2026-08-03T23:59:59.999Z"
+        ]
+      ]
+    }
+  },
+  "id": "flood7days_r2",
+  "keywords": [
+    "flood",
+    "Flood7days_R2"
+  ],
+  "license": "....",
+  "links": [
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood/collections/flood7days_r2?token=<TOKEN>",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood?token=<TOKEN>",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood/catalogs/flood_r2?token=<TOKEN>",
+      "rel": "parent",
+      "title": "Flood_R2",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood/collections/flood7days_r2/items?token=<TOKEN>",
+      "rel": "items",
+      "type": "application/geo+json"
+    }
+  ],
+  "parent": "flood_r2",
+  "providers": [
+    {
+      "name": "GISTDA",
+      "roles": [
+        "host"
+      ],
+      "url": "https://gistda.or.th/"
+    }
+  ],
+  "stac": "flood",
+  "stac_extensions": [
+    "...",
+    "..."
+  ],
+  "stac_version": "1.0.0",
+  "summaries": {
+    "platform": [
+      "Flood"
+    ]
+  },
+  "title": "Process Data 7 Days",
+  "type": "Collection",
+  "updated_at": "2026-08-02T18:00:58.059Z",
+  "updated_by": "66b07c8034c2963abcdb9bb8"
+}

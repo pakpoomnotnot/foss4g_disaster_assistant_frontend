@@ -1,0 +1,776 @@
+{
+  "collections": [
+    {
+      "created_at": "2025-06-15T15:48:49.777Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "description": "Process data dri_plus day 20240105",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              97.343968,
+              5.617402,
+              105.642913,
+              20.470097
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-01-05T00:00:00Z",
+              "2024-01-05T23:59:00Z"
+            ]
+          ]
+        }
+      },
+      "id": "dri_plus_20240105",
+      "keywords": [
+        "drought",
+        "20240105"
+      ],
+      "license": "....",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240105?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/catalogs/dri_plus_2024_Q1_01?token=<TOKEN>",
+          "rel": "parent",
+          "title": "drought Catalog Year 2024 Month 01",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240105/items?token=<TOKEN>",
+          "rel": "items",
+          "type": "application/geo+json"
+        }
+      ],
+      "parent": "dri_plus_2024_Q1_01",
+      "providers": [
+        {
+          "name": "GISTDA",
+          "roles": [
+            "host"
+          ],
+          "url": "https://gistda.or.th/"
+        }
+      ],
+      "stac": "drought",
+      "stac_version": "1.0.0",
+      "summaries": {
+        "platform": [
+          "Gistda-disaster"
+        ]
+      },
+      "title": "Process data day 20240105",
+      "type": "Collection",
+      "updated_at": "2025-06-15T15:48:49.777Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "created_at": "2025-06-15T15:48:48.848Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "description": "Process data dri_plus day 20240112",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              97.343968,
+              5.617402,
+              105.642913,
+              20.470097
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-01-12T00:00:00Z",
+              "2024-01-12T23:59:00Z"
+            ]
+          ]
+        }
+      },
+      "id": "dri_plus_20240112",
+      "keywords": [
+        "drought",
+        "20240112"
+      ],
+      "license": "....",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240112?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/catalogs/dri_plus_2024_Q1_01?token=<TOKEN>",
+          "rel": "parent",
+          "title": "drought Catalog Year 2024 Month 01",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240112/items?token=<TOKEN>",
+          "rel": "items",
+          "type": "application/geo+json"
+        }
+      ],
+      "parent": "dri_plus_2024_Q1_01",
+      "providers": [
+        {
+          "name": "GISTDA",
+          "roles": [
+            "host"
+          ],
+          "url": "https://gistda.or.th/"
+        }
+      ],
+      "stac": "drought",
+      "stac_version": "1.0.0",
+      "summaries": {
+        "platform": [
+          "Gistda-disaster"
+        ]
+      },
+      "title": "Process data day 20240112",
+      "type": "Collection",
+      "updated_at": "2025-06-15T15:48:48.848Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "created_at": "2025-06-15T15:48:47.792Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "description": "Process data dri_plus day 20240119",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              97.343968,
+              5.617402,
+              105.642913,
+              20.470097
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-01-19T00:00:00Z",
+              "2024-01-19T23:59:00Z"
+            ]
+          ]
+        }
+      },
+      "id": "dri_plus_20240119",
+      "keywords": [
+        "drought",
+        "20240119"
+      ],
+      "license": "....",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240119?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/catalogs/dri_plus_2024_Q1_01?token=<TOKEN>",
+          "rel": "parent",
+          "title": "drought Catalog Year 2024 Month 01",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240119/items?token=<TOKEN>",
+          "rel": "items",
+          "type": "application/geo+json"
+        }
+      ],
+      "parent": "dri_plus_2024_Q1_01",
+      "providers": [
+        {
+          "name": "GISTDA",
+          "roles": [
+            "host"
+          ],
+          "url": "https://gistda.or.th/"
+        }
+      ],
+      "stac": "drought",
+      "stac_version": "1.0.0",
+      "summaries": {
+        "platform": [
+          "Gistda-disaster"
+        ]
+      },
+      "title": "Process data day 20240119",
+      "type": "Collection",
+      "updated_at": "2025-06-15T15:48:47.792Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "created_at": "2025-06-15T15:48:46.838Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "description": "Process data dri_plus day 20240126",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              97.343968,
+              5.617402,
+              105.642913,
+              20.470097
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-01-26T00:00:00Z",
+              "2024-01-26T23:59:00Z"
+            ]
+          ]
+        }
+      },
+      "id": "dri_plus_20240126",
+      "keywords": [
+        "drought",
+        "20240126"
+      ],
+      "license": "....",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240126?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/catalogs/dri_plus_2024_Q1_01?token=<TOKEN>",
+          "rel": "parent",
+          "title": "drought Catalog Year 2024 Month 01",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240126/items?token=<TOKEN>",
+          "rel": "items",
+          "type": "application/geo+json"
+        }
+      ],
+      "parent": "dri_plus_2024_Q1_01",
+      "providers": [
+        {
+          "name": "GISTDA",
+          "roles": [
+            "host"
+          ],
+          "url": "https://gistda.or.th/"
+        }
+      ],
+      "stac": "drought",
+      "stac_version": "1.0.0",
+      "summaries": {
+        "platform": [
+          "Gistda-disaster"
+        ]
+      },
+      "title": "Process data day 20240126",
+      "type": "Collection",
+      "updated_at": "2025-06-15T15:48:46.838Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "created_at": "2025-06-15T15:48:45.882Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "description": "Process data dri_plus day 20240202",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              97.343968,
+              5.617402,
+              105.642913,
+              20.470097
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-02-02T00:00:00Z",
+              "2024-02-02T23:59:00Z"
+            ]
+          ]
+        }
+      },
+      "id": "dri_plus_20240202",
+      "keywords": [
+        "drought",
+        "20240202"
+      ],
+      "license": "....",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240202?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/catalogs/dri_plus_2024_Q1_02?token=<TOKEN>",
+          "rel": "parent",
+          "title": "drought Catalog Year 2024 Month 02",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240202/items?token=<TOKEN>",
+          "rel": "items",
+          "type": "application/geo+json"
+        }
+      ],
+      "parent": "dri_plus_2024_Q1_02",
+      "providers": [
+        {
+          "name": "GISTDA",
+          "roles": [
+            "host"
+          ],
+          "url": "https://gistda.or.th/"
+        }
+      ],
+      "stac": "drought",
+      "stac_version": "1.0.0",
+      "summaries": {
+        "platform": [
+          "Gistda-disaster"
+        ]
+      },
+      "title": "Process data day 20240202",
+      "type": "Collection",
+      "updated_at": "2025-06-15T15:48:45.882Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "created_at": "2025-06-15T15:48:44.8Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "description": "Process data dri_plus day 20240209",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              97.343968,
+              5.617402,
+              105.642913,
+              20.470097
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-02-09T00:00:00Z",
+              "2024-02-09T23:59:00Z"
+            ]
+          ]
+        }
+      },
+      "id": "dri_plus_20240209",
+      "keywords": [
+        "drought",
+        "20240209"
+      ],
+      "license": "....",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240209?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/catalogs/dri_plus_2024_Q1_02?token=<TOKEN>",
+          "rel": "parent",
+          "title": "drought Catalog Year 2024 Month 02",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240209/items?token=<TOKEN>",
+          "rel": "items",
+          "type": "application/geo+json"
+        }
+      ],
+      "parent": "dri_plus_2024_Q1_02",
+      "providers": [
+        {
+          "name": "GISTDA",
+          "roles": [
+            "host"
+          ],
+          "url": "https://gistda.or.th/"
+        }
+      ],
+      "stac": "drought",
+      "stac_version": "1.0.0",
+      "summaries": {
+        "platform": [
+          "Gistda-disaster"
+        ]
+      },
+      "title": "Process data day 20240209",
+      "type": "Collection",
+      "updated_at": "2025-06-15T15:48:44.8Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "created_at": "2025-06-15T15:48:43.855Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "description": "Process data dri_plus day 20240216",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              97.343968,
+              5.617402,
+              105.642913,
+              20.470097
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-02-16T00:00:00Z",
+              "2024-02-16T23:59:00Z"
+            ]
+          ]
+        }
+      },
+      "id": "dri_plus_20240216",
+      "keywords": [
+        "drought",
+        "20240216"
+      ],
+      "license": "....",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240216?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/catalogs/dri_plus_2024_Q1_02?token=<TOKEN>",
+          "rel": "parent",
+          "title": "drought Catalog Year 2024 Month 02",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240216/items?token=<TOKEN>",
+          "rel": "items",
+          "type": "application/geo+json"
+        }
+      ],
+      "parent": "dri_plus_2024_Q1_02",
+      "providers": [
+        {
+          "name": "GISTDA",
+          "roles": [
+            "host"
+          ],
+          "url": "https://gistda.or.th/"
+        }
+      ],
+      "stac": "drought",
+      "stac_version": "1.0.0",
+      "summaries": {
+        "platform": [
+          "Gistda-disaster"
+        ]
+      },
+      "title": "Process data day 20240216",
+      "type": "Collection",
+      "updated_at": "2025-06-15T15:48:43.855Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "created_at": "2025-06-15T15:48:42.906Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "description": "Process data dri_plus day 20240223",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              97.343968,
+              5.617402,
+              105.642913,
+              20.470097
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-02-23T00:00:00Z",
+              "2024-02-23T23:59:00Z"
+            ]
+          ]
+        }
+      },
+      "id": "dri_plus_20240223",
+      "keywords": [
+        "drought",
+        "20240223"
+      ],
+      "license": "....",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240223?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/catalogs/dri_plus_2024_Q1_02?token=<TOKEN>",
+          "rel": "parent",
+          "title": "drought Catalog Year 2024 Month 02",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240223/items?token=<TOKEN>",
+          "rel": "items",
+          "type": "application/geo+json"
+        }
+      ],
+      "parent": "dri_plus_2024_Q1_02",
+      "providers": [
+        {
+          "name": "GISTDA",
+          "roles": [
+            "host"
+          ],
+          "url": "https://gistda.or.th/"
+        }
+      ],
+      "stac": "drought",
+      "stac_version": "1.0.0",
+      "summaries": {
+        "platform": [
+          "Gistda-disaster"
+        ]
+      },
+      "title": "Process data day 20240223",
+      "type": "Collection",
+      "updated_at": "2025-06-15T15:48:42.906Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "created_at": "2025-06-15T15:48:37.907Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "description": "Process data dri_plus day 20240301",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              97.343968,
+              5.617402,
+              105.642913,
+              20.470097
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-03-01T00:00:00Z",
+              "2024-03-01T23:59:00Z"
+            ]
+          ]
+        }
+      },
+      "id": "dri_plus_20240301",
+      "keywords": [
+        "drought",
+        "20240301"
+      ],
+      "license": "....",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240301?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/catalogs/dri_plus_2024_Q1_03?token=<TOKEN>",
+          "rel": "parent",
+          "title": "drought Catalog Year 2024 Month 03",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240301/items?token=<TOKEN>",
+          "rel": "items",
+          "type": "application/geo+json"
+        }
+      ],
+      "parent": "dri_plus_2024_Q1_03",
+      "providers": [
+        {
+          "name": "GISTDA",
+          "roles": [
+            "host"
+          ],
+          "url": "https://gistda.or.th/"
+        }
+      ],
+      "stac": "drought",
+      "stac_version": "1.0.0",
+      "summaries": {
+        "platform": [
+          "Gistda-disaster"
+        ]
+      },
+      "title": "Process data day 20240301",
+      "type": "Collection",
+      "updated_at": "2025-06-15T15:48:37.907Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "created_at": "2025-06-15T15:48:41.917Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "description": "Process data dri_plus day 20240308",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              97.343968,
+              5.617402,
+              105.642913,
+              20.470097
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-03-08T00:00:00Z",
+              "2024-03-08T23:59:00Z"
+            ]
+          ]
+        }
+      },
+      "id": "dri_plus_20240308",
+      "keywords": [
+        "drought",
+        "20240308"
+      ],
+      "license": "....",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240308?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/catalogs/dri_plus_2024_Q1_03?token=<TOKEN>",
+          "rel": "parent",
+          "title": "drought Catalog Year 2024 Month 03",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240308/items?token=<TOKEN>",
+          "rel": "items",
+          "type": "application/geo+json"
+        }
+      ],
+      "parent": "dri_plus_2024_Q1_03",
+      "providers": [
+        {
+          "name": "GISTDA",
+          "roles": [
+            "host"
+          ],
+          "url": "https://gistda.or.th/"
+        }
+      ],
+      "stac": "drought",
+      "stac_version": "1.0.0",
+      "summaries": {
+        "platform": [
+          "Gistda-disaster"
+        ]
+      },
+      "title": "Process data day 20240308",
+      "type": "Collection",
+      "updated_at": "2025-06-15T15:48:41.917Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    }
+  ],
+  "context": {
+    "limit": 10,
+    "matched": 479,
+    "page": 1,
+    "returned": 10
+  },
+  "links": [
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections?token=<TOKEN>",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought?token=<TOKEN>",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections?token=<TOKEN>&limit=10&offset=10",
+      "rel": "next"
+    }
+  ]
+}

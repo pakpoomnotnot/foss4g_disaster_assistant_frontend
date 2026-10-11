@@ -1,0 +1,487 @@
+{
+  "context": {
+    "limit": 5,
+    "matched": 479,
+    "page": 1,
+    "returned": 5
+  },
+  "features": [
+    {
+      "assets": {
+        "data": {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/e13b334b5b65e7be87769f9e70215f3dec39abee813d0b52020e16ac196bb54a?token=<TOKEN>",
+          "roles": [
+            "Features"
+          ],
+          "title": "Features",
+          "type": "application/geo+json"
+        },
+        "tile": {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/bac964a7e9322f29a8d1269770237d4927604fc38331978f33bc6a6e273de2bb?token=<TOKEN>",
+          "roles": [
+            "Vector Tiles"
+          ],
+          "title": "Vector Tiles",
+          "type": "application/json"
+        }
+      },
+      "bbox": [
+        97.343968,
+        5.617402,
+        105.642913,
+        20.470097
+      ],
+      "collection": "dri_plus_20240105",
+      "created_at": "2025-06-15T15:48:49.914Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              97.343968,
+              5.617402
+            ],
+            [
+              97.343968,
+              20.470097
+            ],
+            [
+              105.642913,
+              20.470097
+            ],
+            [
+              105.642913,
+              5.617402
+            ],
+            [
+              97.343968,
+              5.617402
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "dri_plus_20240105",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240105/items/dri_plus_20240105?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/geo+json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240105?token=<TOKEN>",
+          "rel": "parent",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240105?token=<TOKEN>",
+          "rel": "collection",
+          "type": "application/json"
+        }
+      ],
+      "parents": [],
+      "properties": {
+        "created": "2025-06-15T22:48:49.048Z",
+        "dataId": "684e97f2af3ffb734f2546d1",
+        "datetime": "2024-01-05T00:10:00Z",
+        "tileId": "684e9b2edace09b04ecbbf7b",
+        "updated": "2025-06-15T22:48:49.048Z"
+      },
+      "stac": "drought",
+      "stac_version": "1.0.0",
+      "type": "Feature",
+      "updated_at": "2025-06-15T15:48:49.914Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "assets": {
+        "data": {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/13dd7b479c17adc04e2d674c612ed06a4cacf445f32297016b507b58c33cacfe?token=<TOKEN>",
+          "roles": [
+            "Features"
+          ],
+          "title": "Features",
+          "type": "application/geo+json"
+        },
+        "tile": {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/46a39934cbd753cd20d7916c7ffcc28d403a9d79a3d96e11e6032e9fd0f21656?token=<TOKEN>",
+          "roles": [
+            "Vector Tiles"
+          ],
+          "title": "Vector Tiles",
+          "type": "application/json"
+        }
+      },
+      "bbox": [
+        97.343968,
+        5.617402,
+        105.642913,
+        20.470097
+      ],
+      "collection": "dri_plus_20240112",
+      "created_at": "2025-06-15T15:48:48.988Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              97.343968,
+              5.617402
+            ],
+            [
+              97.343968,
+              20.470097
+            ],
+            [
+              105.642913,
+              20.470097
+            ],
+            [
+              105.642913,
+              5.617402
+            ],
+            [
+              97.343968,
+              5.617402
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "dri_plus_20240112",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240112/items/dri_plus_20240112?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/geo+json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240112?token=<TOKEN>",
+          "rel": "parent",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240112?token=<TOKEN>",
+          "rel": "collection",
+          "type": "application/json"
+        }
+      ],
+      "parents": [],
+      "properties": {
+        "created": "2025-06-15T22:48:47.997Z",
+        "dataId": "684edbfb2a7c1295a9d0558f",
+        "datetime": "2024-01-12T00:10:00Z",
+        "tileId": "684edbfe1d368c123a12c0bd",
+        "updated": "2025-06-15T22:48:47.997Z"
+      },
+      "stac": "drought",
+      "stac_version": "1.0.0",
+      "type": "Feature",
+      "updated_at": "2025-06-15T15:48:48.988Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "assets": {
+        "data": {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/f542841d665089d3cf50c0e43614cc0327a308c967219440f322ebbbddf8831f?token=<TOKEN>",
+          "roles": [
+            "Features"
+          ],
+          "title": "Features",
+          "type": "application/geo+json"
+        },
+        "tile": {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/293ae38bde72833b1904122f2d96567bca4593d3d1768f882b6156f32544d959?token=<TOKEN>",
+          "roles": [
+            "Vector Tiles"
+          ],
+          "title": "Vector Tiles",
+          "type": "application/json"
+        }
+      },
+      "bbox": [
+        97.343968,
+        5.617402,
+        105.642913,
+        20.470097
+      ],
+      "collection": "dri_plus_20240119",
+      "created_at": "2025-06-15T15:48:47.938Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              97.343968,
+              5.617402
+            ],
+            [
+              97.343968,
+              20.470097
+            ],
+            [
+              105.642913,
+              20.470097
+            ],
+            [
+              105.642913,
+              5.617402
+            ],
+            [
+              97.343968,
+              5.617402
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "dri_plus_20240119",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240119/items/dri_plus_20240119?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/geo+json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240119?token=<TOKEN>",
+          "rel": "parent",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240119?token=<TOKEN>",
+          "rel": "collection",
+          "type": "application/json"
+        }
+      ],
+      "parents": [],
+      "properties": {
+        "created": "2025-06-15T22:48:46.996Z",
+        "dataId": "684edc0622484063ec39a426",
+        "datetime": "2024-01-19T00:10:00Z",
+        "tileId": "684edc0a1d368c123a12c0be",
+        "updated": "2025-06-15T22:48:46.996Z"
+      },
+      "stac": "drought",
+      "stac_version": "1.0.0",
+      "type": "Feature",
+      "updated_at": "2025-06-15T15:48:47.938Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "assets": {
+        "data": {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/dde846a1abe7042a0b8b76d14272edb0995bf7b9877c9cb8a01306b26804fc69?token=<TOKEN>",
+          "roles": [
+            "Features"
+          ],
+          "title": "Features",
+          "type": "application/geo+json"
+        },
+        "tile": {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/cd112910b064b491ef2971c38f7cf1dd28c5936b190a399cfb0911c53e39c4f9?token=<TOKEN>",
+          "roles": [
+            "Vector Tiles"
+          ],
+          "title": "Vector Tiles",
+          "type": "application/json"
+        }
+      },
+      "bbox": [
+        97.343968,
+        5.617402,
+        105.642913,
+        20.470097
+      ],
+      "collection": "dri_plus_20240126",
+      "created_at": "2025-06-15T15:48:46.958Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              97.343968,
+              5.617402
+            ],
+            [
+              97.343968,
+              20.470097
+            ],
+            [
+              105.642913,
+              20.470097
+            ],
+            [
+              105.642913,
+              5.617402
+            ],
+            [
+              97.343968,
+              5.617402
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "dri_plus_20240126",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240126/items/dri_plus_20240126?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/geo+json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240126?token=<TOKEN>",
+          "rel": "parent",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240126?token=<TOKEN>",
+          "rel": "collection",
+          "type": "application/json"
+        }
+      ],
+      "parents": [],
+      "properties": {
+        "created": "2025-06-15T22:48:46.091Z",
+        "dataId": "684edc1222484063ec39a428",
+        "datetime": "2024-01-26T00:10:00Z",
+        "tileId": "684edc15dace09b04ecbbf7e",
+        "updated": "2025-06-15T22:48:46.091Z"
+      },
+      "stac": "drought",
+      "stac_version": "1.0.0",
+      "type": "Feature",
+      "updated_at": "2025-06-15T15:48:46.958Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "assets": {
+        "data": {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/0dbb7a144a98beedc103cffee8d4e969e2678401fabdf60ab27f446f144f133e?token=<TOKEN>",
+          "roles": [
+            "Features"
+          ],
+          "title": "Features",
+          "type": "application/geo+json"
+        },
+        "tile": {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/69bdffd50ba7c4b78e2edd96a1fb1b758d682db7a6f4296b5925e64384dd862b?token=<TOKEN>",
+          "roles": [
+            "Vector Tiles"
+          ],
+          "title": "Vector Tiles",
+          "type": "application/json"
+        }
+      },
+      "bbox": [
+        97.343968,
+        5.617402,
+        105.642913,
+        20.470097
+      ],
+      "collection": "dri_plus_20240202",
+      "created_at": "2025-06-15T15:48:46.029Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              97.343968,
+              5.617402
+            ],
+            [
+              97.343968,
+              20.470097
+            ],
+            [
+              105.642913,
+              20.470097
+            ],
+            [
+              105.642913,
+              5.617402
+            ],
+            [
+              97.343968,
+              5.617402
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "dri_plus_20240202",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240202/items/dri_plus_20240202?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/geo+json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240202?token=<TOKEN>",
+          "rel": "parent",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/collections/dri_plus_20240202?token=<TOKEN>",
+          "rel": "collection",
+          "type": "application/json"
+        }
+      ],
+      "parents": [],
+      "properties": {
+        "created": "2025-06-15T22:48:45.100Z",
+        "dataId": "684edc1deaaa345bcc9ee930",
+        "datetime": "2024-02-02T00:10:00Z",
+        "tileId": "684edc203805015ac7a3eafc",
+        "updated": "2025-06-15T22:48:45.100Z"
+      },
+      "stac": "drought",
+      "stac_version": "1.0.0",
+      "type": "Feature",
+      "updated_at": "2025-06-15T15:48:46.029Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/search?token=<TOKEN>",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought?token=<TOKEN>",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/search?token=<TOKEN>&bbox=98,5,102,20&limit=5&offset=5",
+      "rel": "next"
+    }
+  ],
+  "type": "FeatureCollection"
+}

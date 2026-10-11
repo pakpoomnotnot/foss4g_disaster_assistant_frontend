@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [],
+  "links": [
+    {
+      "href": "https://vallaris.dragonfly.gistda.or.th/core/api/features/1.1/collections/66e7b1fe77d16758b4c05acd/items?api_key=<API_KEY>",
+      "rel": "self",
+      "type": "application/geo+json",
+      "title": "This document"
+    },
+    {
+      "href": "https://vallaris.dragonfly.gistda.or.th/core/api/features/1.1/collections/66e7b1fe77d16758b4c05acd/items?api_key=<API_KEY>",
+      "rel": "alternate",
+      "type": "application/json",
+      "title": "This document"
+    }
+  ],
+  "timeStamp": "2026-08-03T02:59:38.311Z",
+  "numberMatched": 0,
+  "numberReturned": 0
+}

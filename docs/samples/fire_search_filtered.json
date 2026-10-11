@@ -1,0 +1,299 @@
+{
+  "context": {
+    "limit": 5,
+    "matched": 3,
+    "page": 1,
+    "returned": 3
+  },
+  "features": [
+    {
+      "assets": {
+        "data": {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/e78407f06ccabfff5138f1d2bbb34c08de903bb69a213fa4b814a740a956df56?token=<TOKEN>",
+          "roles": [
+            "Features"
+          ],
+          "title": "Features",
+          "type": "application/geo+json"
+        },
+        "tile": {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/5c30c856fa72ff78ac654afbd70e391afb388ed1b31bf3096e780ad9e23d25b3?token=<TOKEN>",
+          "roles": [
+            "Vector Tiles"
+          ],
+          "title": "Vector Tiles",
+          "type": "application/json"
+        }
+      },
+      "bbox": [
+        92.77094,
+        -2.92576,
+        121.37386,
+        30.10147
+      ],
+      "collection": "fire__20250201",
+      "created_at": "2025-05-26T03:52:12.064Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              92.77094,
+              -2.92576
+            ],
+            [
+              92.77094,
+              30.10147
+            ],
+            [
+              121.37386,
+              30.10147
+            ],
+            [
+              121.37386,
+              -2.92576
+            ],
+            [
+              92.77094,
+              -2.92576
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "fire__20250201",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250201/items/fire__20250201?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/geo+json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250201?token=<TOKEN>",
+          "rel": "parent",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/fire__20250201?token=<TOKEN>",
+          "rel": "collection",
+          "type": "application/json"
+        }
+      ],
+      "parents": [],
+      "properties": {
+        "created": "2025-05-26T10:52:11.020Z",
+        "dataId": "6833e3f072f9292dac68926b",
+        "datetime": "2025-02-01T00:10:00Z",
+        "tileId": "6833e3f056cd3988c2964eb5",
+        "updated": "2025-05-26T10:52:11.020Z"
+      },
+      "stac": "fire",
+      "stac_version": "1.0.0",
+      "type": "Feature",
+      "updated_at": "2025-05-26T03:52:12.064Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "assets": {
+        "data": {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/e78407f06ccabfff5138f1d2bbb34c08de903bb69a213fa4b814a740a956df56?token=<TOKEN>",
+          "roles": [
+            "Features"
+          ],
+          "title": "Features",
+          "type": "application/geo+json"
+        },
+        "tile": {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/5c30c856fa72ff78ac654afbd70e391afb388ed1b31bf3096e780ad9e23d25b3?token=<TOKEN>",
+          "roles": [
+            "Vector Tiles"
+          ],
+          "title": "Vector Tiles",
+          "type": "application/json"
+        }
+      },
+      "bbox": [
+        92.77094,
+        -2.92576,
+        121.37386,
+        30.10147
+      ],
+      "collection": "modis_20250201",
+      "created_at": "2025-05-26T04:00:48.569Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              92.77094,
+              -2.92576
+            ],
+            [
+              92.77094,
+              30.10147
+            ],
+            [
+              121.37386,
+              30.10147
+            ],
+            [
+              121.37386,
+              -2.92576
+            ],
+            [
+              92.77094,
+              -2.92576
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "modis_20250201",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/modis_20250201/items/modis_20250201?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/geo+json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/modis_20250201?token=<TOKEN>",
+          "rel": "parent",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/modis_20250201?token=<TOKEN>",
+          "rel": "collection",
+          "type": "application/json"
+        }
+      ],
+      "parents": [],
+      "properties": {
+        "created": "2025-05-26T11:00:47.604Z",
+        "dataId": "6833e3f072f9292dac68926b",
+        "datetime": "2025-02-01T00:10:00Z",
+        "tileId": "6833e3f056cd3988c2964eb5",
+        "updated": "2025-05-26T11:00:47.604Z"
+      },
+      "stac": "fire",
+      "stac_version": "1.0.0",
+      "type": "Feature",
+      "updated_at": "2025-05-26T04:00:48.569Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    },
+    {
+      "assets": {
+        "data": {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/1197d32e121e8b82df6ac4cdf5873b1f33f75ab5e0434a0f35099004608a3657?token=<TOKEN>",
+          "roles": [
+            "Features"
+          ],
+          "title": "Features",
+          "type": "application/geo+json"
+        },
+        "tile": {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/aae820e66994758ea0bdd2cef1000bbec25e74c10b6d5110b42d7763adbed5bf?token=<TOKEN>",
+          "roles": [
+            "Vector Tiles"
+          ],
+          "title": "Vector Tiles",
+          "type": "application/json"
+        }
+      },
+      "bbox": [
+        91.92449,
+        -8.53947,
+        140.4438,
+        30.92082
+      ],
+      "collection": "viirs_20250201",
+      "created_at": "2025-02-02T00:02:27.105Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              91.92449,
+              -8.53947
+            ],
+            [
+              91.92449,
+              30.92082
+            ],
+            [
+              140.4438,
+              30.92082
+            ],
+            [
+              140.4438,
+              -8.53947
+            ],
+            [
+              91.92449,
+              -8.53947
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "viirs_20250201",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/viirs_20250201/items/viirs_20250201?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/geo+json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/viirs_20250201?token=<TOKEN>",
+          "rel": "parent",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/collections/viirs_20250201?token=<TOKEN>",
+          "rel": "collection",
+          "type": "application/json"
+        }
+      ],
+      "parents": [],
+      "properties": {
+        "created": "2025-02-02T00:02:26Z",
+        "dataId": "679eb595ea1c8bd1dde88dab",
+        "datetime": "2025-02-01T00:10:00Z",
+        "tileId": "679eb5ed9f2356cca8c60046",
+        "updated": "2025-02-02T00:02:26Z"
+      },
+      "stac": "fire",
+      "stac_version": "1.0.0",
+      "type": "Feature",
+      "updated_at": "2025-02-02T00:02:27.105Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/search?token=<TOKEN>",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire?token=<TOKEN>",
+      "rel": "root",
+      "type": "application/json"
+    }
+  ],
+  "type": "FeatureCollection"
+}

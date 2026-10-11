@@ -1,0 +1,243 @@
+@import "tailwindcss";
+
+:root {
+  --background: #eef2f7;
+  --foreground: #14181f;
+
+  /* Liquid-glass tokens. Every frosted surface reads from these so the whole
+     UI stays one material instead of a dozen slightly different translucencies. */
+  --glass-bg: rgba(255, 255, 255, 0.55);
+  --glass-bg-strong: rgba(255, 255, 255, 0.72);
+  --glass-border: rgba(255, 255, 255, 0.65);
+  --glass-highlight: rgba(255, 255, 255, 0.85);
+  --glass-shadow: 0 8px 32px rgba(15, 23, 42, 0.13);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-kanit);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0b0f16;
+    --foreground: #e9edf3;
+
+    --glass-bg: rgba(22, 28, 38, 0.55);
+    --glass-bg-strong: rgba(22, 28, 38, 0.75);
+    --glass-border: rgba(255, 255, 255, 0.14);
+    --glass-highlight: rgba(255, 255, 255, 0.18);
+    --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  /* Was hard-coded to Arial, which silently beat the font variable and left
+     Thai text on a system fallback. */
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-weight: 400;
+}
+
+/* Glass needs something behind it to bend, otherwise it just looks like a
+   grey box. These two soft colour pools sit under the whole app. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(
+      42rem 42rem at 12% 8%,
+      color-mix(in srgb, #3b82f6 22%, transparent),
+      transparent 70%
+    ),
+    radial-gradient(
+      38rem 38rem at 88% 92%,
+      color-mix(in srgb, #f97316 18%, transparent),
+      transparent 70%
+    );
+  pointer-events: none;
+}
+
+/* Do NOT hand-write `-webkit-backdrop-filter` next to these. Lightning CSS (the
+   compiler behind Tailwind v4) treats the manual prefix as the winning
+   declaration and drops the standard property entirely, and current Chromium
+   supports only the UNPREFIXED name — the net result is no blur at all.
+   Verified: CSS.supports('-webkit-backdrop-filter', 'blur(4px)') === false.
+   Write the standard property alone and let the compiler add prefixes. */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  box-shadow:
+    var(--glass-shadow),
+    inset 0 1px 0 var(--glass-highlight);
+}
+
+.glass-strong {
+  background: var(--glass-bg-strong);
+  backdrop-filter: blur(28px) saturate(190%);
+  border: 1px solid var(--glass-border);
+  box-shadow:
+    var(--glass-shadow),
+    inset 0 1px 0 var(--glass-highlight);
+}
+
+/* Buttons and chips are small, so they get a lighter blur — a heavy one on a
+   28px pill just turns to mud. */
+.glass-chip {
+  background: var(--glass-bg-strong);
+  backdrop-filter: blur(12px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  box-shadow:
+    0 2px 10px rgba(15, 23, 42, 0.1),
+    inset 0 1px 0 var(--glass-highlight);
+}
+
+/* Chart series hue. Both modes are chosen against their own surface rather
+   than one value flipped — the light step is too dark to read on the dark
+   glass and vice versa. */
+.viz {
+  --viz-series: #2a78d6;
+  /* De-emphasis gray for the folded remainder row. */
+  --viz-muted: #8a8a86;
+}
+
+@media (prefers-color-scheme: dark) {
+  .viz {
+    --viz-series: #3987e5;
+  }
+}
+
+/* ---------------------------------------------------- MapLibre popup skin */
+/* The default popup is an opaque white box with a hard arrow; restyle it to
+   the same material as everything else. */
+.maplibregl-popup-content {
+  padding: 0 !important;
+  border-radius: 1rem !important;
+  background: var(--glass-bg-strong) !important;
+  backdrop-filter: blur(24px) saturate(185%);
+  border: 1px solid var(--glass-border);
+  box-shadow:
+    var(--glass-shadow),
+    inset 0 1px 0 var(--glass-highlight) !important;
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+.fp {
+  /* Kept narrow so the card still fits inside a small map pane; MapLibre only
+     flips the anchor vertically, it will not slide a wide popup back into view. */
+  min-width: 12rem;
+  max-width: 17rem;
+  padding: 0.85rem 1rem;
+}
+
+.fp-head {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.fp-dot {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 9999px;
+  flex: none;
+}
+
+.fp-title {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.fp-place {
+  font-size: 12px;
+  opacity: 0.75;
+  margin-bottom: 0.5rem;
+}
+
+.fp-row {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.28rem 0;
+}
+
+.fp-row + .fp-row {
+  border-top: 1px solid color-mix(in srgb, var(--foreground) 10%, transparent);
+}
+
+.fp-key {
+  width: 5.5rem;
+  flex: none;
+  font-size: 11px;
+  opacity: 0.6;
+}
+
+.fp-val {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.maplibregl-popup-tip {
+  border-top-color: var(--glass-bg-strong) !important;
+  border-bottom-color: var(--glass-bg-strong) !important;
+  border-left-color: var(--glass-bg-strong) !important;
+  border-right-color: var(--glass-bg-strong) !important;
+}
+
+.maplibregl-popup-close-button {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 9999px;
+  font-size: 1rem;
+  line-height: 1;
+  color: color-mix(in srgb, var(--foreground) 65%, transparent);
+}
+
+.maplibregl-popup-close-button:hover {
+  background: color-mix(in srgb, var(--foreground) 10%, transparent);
+  color: var(--foreground);
+}
+
+/* MapLibre's own controls are opaque by default and stick out badly next to
+   frosted panels. */
+.maplibregl-ctrl-group {
+  background: var(--glass-bg-strong) !important;
+  backdrop-filter: blur(12px) saturate(180%);
+  border: 1px solid var(--glass-border) !important;
+  border-radius: 0.85rem !important;
+  box-shadow:
+    0 2px 10px rgba(15, 23, 42, 0.1),
+    inset 0 1px 0 var(--glass-highlight) !important;
+  overflow: hidden;
+}
+
+.maplibregl-ctrl-group button + button {
+  border-top: 1px solid color-mix(in srgb, var(--foreground) 12%, transparent) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* The control glyphs are dark SVGs baked into the stylesheet. */
+  .maplibregl-ctrl-group button .maplibregl-ctrl-icon {
+    filter: invert(1);
+  }
+}
+
+.maplibregl-ctrl-attrib {
+  background: var(--glass-bg) !important;
+  backdrop-filter: blur(8px);
+  border-radius: 0.5rem 0 0 0;
+  font-size: 10px;
+}
+
+.maplibregl-ctrl-attrib a {
+  color: color-mix(in srgb, var(--foreground) 70%, transparent);
+}

@@ -1,0 +1,117 @@
+{
+  "features": [
+    {
+      "assets": {
+        "data": {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/53f8f4014e8d398bb6d893f2435863b7f3adedae0cadbb74853c542facaf1d7c?token=<TOKEN>",
+          "roles": [
+            "Features"
+          ],
+          "title": "Features",
+          "type": "application/geo+json"
+        },
+        "tile": {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/0fc40ab7f0d4dbd77352444f745f4631b13aacf0c2f3fd802b1ba8ca6aaa1acb?token=<TOKEN>",
+          "roles": [
+            "Vector Tiles"
+          ],
+          "title": "Vector Tiles",
+          "type": "application/json"
+        }
+      },
+      "bbox": [
+        -180,
+        -90,
+        180,
+        90
+      ],
+      "collection": "flood7days_r2",
+      "created_at": "2024-09-16T09:37:02.558Z",
+      "created_by": "66b07c8034c2963abcdb9bb8",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -180,
+              -90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              -180,
+              90
+            ],
+            [
+              -180,
+              -90
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "items_flood7days_r2",
+      "links": [
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood/collections/flood7days_r2/items/items_flood7days_r2?token=<TOKEN>",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood?token=<TOKEN>",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood/collections/flood7days_r2?token=<TOKEN>",
+          "rel": "parent",
+          "title": "Process Data 7 Days",
+          "type": "application/json"
+        },
+        {
+          "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood/collections/flood7days_r2?token=<TOKEN>",
+          "rel": "collection",
+          "title": "Process Data 7 Days",
+          "type": "application/json"
+        }
+      ],
+      "parents": [],
+      "properties": {
+        "created": "2026-08-03T01:00:58.000Z",
+        "datetime": "2026-07-28T00:10:00Z",
+        "updated": "2026-08-03T01:00:58.000Z"
+      },
+      "stac": "flood",
+      "stac_version": "1.0.0",
+      "type": "Feature",
+      "updated_at": "2026-08-02T18:00:58.21Z",
+      "updated_by": "66b07c8034c2963abcdb9bb8"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood/collections/flood7days_r2/items?token=<TOKEN>",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood?token=<TOKEN>",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/flood/collections/flood7days_r2?token=<TOKEN>",
+      "rel": "parent",
+      "type": "application/json"
+    }
+  ],
+  "numberMatched": 1,
+  "numberReturned": 1,
+  "timeStamp": "2026-08-03T02:58:42.846657477Z",
+  "type": "FeatureCollection"
+}

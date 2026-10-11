@@ -1,0 +1,55 @@
+{
+  "created_at": "2024-10-13T07:26:31.217Z",
+  "created_by": "66b07c8034c2963abcdb9bb8",
+  "description": "This is the catalog dri_plus catalog by weekly process",
+  "id": "dri_plus",
+  "links": [
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/catalogs/dri_plus?token=<TOKEN>",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought?token=<TOKEN>",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought?token=<TOKEN>",
+      "rel": "parent",
+      "title": "drought",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/catalogs/dri_plus/children?token=<TOKEN>",
+      "rel": "children",
+      "title": "child list",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/catalogs/dri_plus_2024?token=<TOKEN>",
+      "rel": "child",
+      "title": "Catalog Year 2024",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/catalogs/dri_plus_2025?token=<TOKEN>",
+      "rel": "child",
+      "title": "Catalog Year 2025",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/drought/catalogs/dri_plus_2026?token=<TOKEN>",
+      "rel": "child",
+      "title": "Catalog Year 2026",
+      "type": "application/json"
+    }
+  ],
+  "parent": "drought",
+  "stac": "drought",
+  "stac_version": "1.0.0",
+  "title": "Catalog dri_plus Category By weekly process",
+  "type": "Catalog",
+  "updated_at": "2024-10-13T07:26:31.217Z",
+  "updated_by": "66b07c8034c2963abcdb9bb8"
+}

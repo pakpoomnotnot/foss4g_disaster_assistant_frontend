@@ -1,0 +1,211 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "684e9830c5663aca9ca426bf",
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                100.65377651672132,
+                13.855718493773969
+              ],
+              [
+                100.65032614372316,
+                13.869139833650042
+              ],
+              [
+                100.63665178326438,
+                13.873008947814919
+              ],
+              [
+                100.62642844731629,
+                13.86345618106669
+              ],
+              [
+                100.62987997240728,
+                13.850034597342976
+              ],
+              [
+                100.643553681643,
+                13.846166024050937
+              ],
+              [
+                100.65377651672132,
+                13.855718493773969
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "_createdAt": "2025-06-15T09:53:52.858Z",
+        "_createdBy": "66b07c8034c2963abcdb9bb8",
+        "_id": "684e9830c5663aca9ca426bf",
+        "_updatedAt": "2025-06-15T09:53:52.858Z",
+        "_updatedBy": "66b07c8034c2963abcdb9bb8",
+        "ap_en": "BANG KHEN",
+        "ap_idn": "1005",
+        "ap_tn": "บางเขน",
+        "dri_mean": null,
+        "fid_2": 1,
+        "h3_address": "8764a48ebffffff",
+        "pv_en": "Bangkok",
+        "pv_idn": "10",
+        "pv_tn": "กรุงเทพมหานคร",
+        "re_royin": "Central",
+        "tb_en": "THA RAENG",
+        "tb_idn": "100508",
+        "tb_tn": "ท่าแร้ง"
+      }
+    },
+    {
+      "id": "684e9830c5663aca9ca426c0",
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                100.35346676060325,
+                13.741338912456108
+              ],
+              [
+                100.35000245429032,
+                13.754764316774132
+              ],
+              [
+                100.33631891114146,
+                13.75861733920863
+              ],
+              [
+                100.32610034388867,
+                13.749044437649918
+              ],
+              [
+                100.32956578758356,
+                13.73561881879422
+              ],
+              [
+                100.3432486614425,
+                13.731766315870159
+              ],
+              [
+                100.35346676060325,
+                13.741338912456108
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "_createdAt": "2025-06-15T09:53:52.858Z",
+        "_createdBy": "66b07c8034c2963abcdb9bb8",
+        "_id": "684e9830c5663aca9ca426c0",
+        "_updatedAt": "2025-06-15T09:53:52.858Z",
+        "_updatedBy": "66b07c8034c2963abcdb9bb8",
+        "ap_en": "THAWI WATTHANA",
+        "ap_idn": "1048",
+        "ap_tn": "ทวีวัฒนา",
+        "dri_mean": null,
+        "fid_2": 1,
+        "h3_address": "8764a4a2cffffff",
+        "pv_en": "Bangkok",
+        "pv_idn": "10",
+        "pv_tn": "กรุงเทพมหานคร",
+        "re_royin": "Central",
+        "tb_en": "THAWI WATTHANA",
+        "tb_idn": "104801",
+        "tb_tn": "ทวีวัฒนา"
+      }
+    },
+    {
+      "id": "684e9830c5663aca9ca426c1",
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                100.45315926195394,
+                13.551354890183708
+              ],
+              [
+                100.44970200662551,
+                13.564784995029987
+              ],
+              [
+                100.43603110334547,
+                13.568641445791457
+              ],
+              [
+                100.42581811805105,
+                13.559067258534661
+              ],
+              [
+                100.42927651405147,
+                13.54563693402874
+              ],
+              [
+                100.44294675496567,
+                13.541781016274617
+              ],
+              [
+                100.45315926195394,
+                13.551354890183708
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "_createdAt": "2025-06-15T09:53:52.858Z",
+        "_createdBy": "66b07c8034c2963abcdb9bb8",
+        "_id": "684e9830c5663aca9ca426c1",
+        "_updatedAt": "2025-06-15T09:53:52.858Z",
+        "_updatedBy": "66b07c8034c2963abcdb9bb8",
+        "ap_en": "BANG KHUN THIAN",
+        "ap_idn": "1021",
+        "ap_tn": "บางขุนเทียน",
+        "dri_mean": null,
+        "fid_2": 1,
+        "h3_address": "87658b4c2ffffff",
+        "pv_en": "Bangkok",
+        "pv_idn": "10",
+        "pv_tn": "กรุงเทพมหานคร",
+        "re_royin": "Central",
+        "tb_en": "THA KHAM",
+        "tb_idn": "102105",
+        "tb_tn": "ท่าข้าม"
+      }
+    }
+  ],
+  "links": [
+    {
+      "href": "https://vallaris.dragonfly.gistda.or.th/core/api/features/1.1/collections/684e97f2af3ffb734f2546d1/items?api_key=<API_KEY>",
+      "rel": "self",
+      "type": "application/geo+json",
+      "title": "This document"
+    },
+    {
+      "href": "https://vallaris.dragonfly.gistda.or.th/core/api/features/1.1/collections/684e97f2af3ffb734f2546d1/items?api_key=<API_KEY>",
+      "rel": "alternate",
+      "type": "application/json",
+      "title": "This document"
+    },
+    {
+      "href": "https://vallaris.dragonfly.gistda.or.th/core/api/features/1.1/collections/684e97f2af3ffb734f2546d1/items?api_key=<API_KEY>&collectionCreatedBy=66b07c8034c2963abcdb9bb8&offset=10",
+      "rel": "next",
+      "type": "application/json"
+    }
+  ],
+  "timeStamp": "2026-08-03T03:16:44.97Z",
+  "numberMatched": 85528,
+  "numberReturned": 10,
+  "_note": "features trimmed to 3 for sample brevity"
+}

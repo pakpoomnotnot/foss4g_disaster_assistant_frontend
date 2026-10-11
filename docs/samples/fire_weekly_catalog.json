@@ -1,0 +1,43 @@
+{
+  "created_at": "2025-05-26T03:51:34.214Z",
+  "created_by": "66b07c8034c2963abcdb9bb8",
+  "description": "This is the catalog fire catalog by weekly process",
+  "id": "fire_",
+  "links": [
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/fire_?token=<TOKEN>",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire?token=<TOKEN>",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire?token=<TOKEN>",
+      "rel": "parent",
+      "title": "STAC for Forest Fire",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/fire_/children?token=<TOKEN>",
+      "rel": "children",
+      "title": "child list",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api-gateway.gistda.or.th/api/2.0/resources/stac/fire/catalogs/fire__2025?token=<TOKEN>",
+      "rel": "child",
+      "title": "Catalog Year 2025",
+      "type": "application/json"
+    }
+  ],
+  "parent": "fire",
+  "stac": "fire",
+  "stac_version": "1.0.0",
+  "title": "Catalog fire Category By weekly process",
+  "type": "Catalog",
+  "updated_at": "2025-05-26T03:51:34.214Z",
+  "updated_by": "66b07c8034c2963abcdb9bb8"
+}
